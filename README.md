@@ -1,10 +1,5 @@
 ## Description
 
-##Reports
-
-<img src="" min-width="4000px" max-width="4000px" width="4000px" align="right" alt="Computador Samuel Freitas">
-
-
 # Automacao de uma API em Ruby - Um Projeto de teste para aprimorar os conhecimentos em Ruby
 
 
