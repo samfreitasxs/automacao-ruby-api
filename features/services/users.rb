@@ -8,5 +8,9 @@ module Rest
         def get_users
             self.class.get('/api/v1/Activities')
         end
+
+        def get_user(id)
+            self.class.get("/api/v1/Activities/#{id}")
+        end
     end
 end
