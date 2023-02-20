@@ -1,15 +1,24 @@
+## Description
 
-# VS Code Readme Editor 📝  
-Import your existing Readme using the import button on the top right corner of the navbar, 
-or create a new Readme from scratch by typing in the editor.  
+##Reports
 
-## Get Started 🚀  
-To get started, hit the 'clear' button at the top of the editor!  
+<img src="" min-width="4000px" max-width="4000px" width="4000px" align="right" alt="Computador Samuel Freitas">
 
-## Prebuilt Components/Templates 🔥  
-You can checkout prebuilt components and templates by clicking on the menu icon
-on the top left corner of the navbar.
-    
-## Save Readme ✨  
-Once you're done, click on the save button to directly save your Readme to your
-project's root directory!
+
+# Automacao de uma API em Ruby - Um Projeto de teste para aprimorar os conhecimentos em Ruby
+
+
+![Tela de Report](https://github.com/samfreitasxs/automacao-ruby-api/blob/master/image/Evi1.png?raw=true)
+![Tela de Report 2](https://github.com/samfreitasxs/automacao-ruby-api/blob/master/image/Evi%202.png?raw=true)
+
+
+## Para Ajudar
+1. 
+1. 
+1. 
+1. 
+1. 
+1. 
+1. 
+1. 
+1. 
