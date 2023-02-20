@@ -12,11 +12,12 @@ Quando('faço uma requisição GET para o servico Users') do
 
 
   Quando('faço uma requisição GET para o servico Users passando id') do
-    @id=1
+    @id= sort_id.to_i
     @request_users = users.get_user(@id)
     print @request_users
   end
   
   Entao('retorna o usuario') do
-    pending # Write code here that turns the phrase above into concrete actions
+    expect(@request_users.parsed_response['ID']).to eql @id
+
   end
