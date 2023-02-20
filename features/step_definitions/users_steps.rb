@@ -20,3 +20,14 @@ Quando('faço uma requisição GET para o servico Users') do
     expect(@request_users.parsed_response['id']).to eql @id
     print @id
   end
+
+  Quando('faço uma requisição POST para o servico Users') do
+    @payload_users = build(:user).user_hash
+    @request_users = users.post_users(@payload_users)
+  end
+  
+  Entao('retorna o usuario criado') do
+    expect(@request_users['id']).to eql @payload_users[:id]
+    ##expect(@request_users['UserName']).to eql @payload_users[:UserName]
+    ##expect(@request_users['Password'].to_i).to eql @payload_users[:Password]
+  end

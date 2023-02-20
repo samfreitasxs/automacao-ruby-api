@@ -1,5 +1,5 @@
 require 'faker'
-require_relative '.../models/users_model'
+require_relative '../models/users_model'
 
 def sort_id
     user_file = YAML.load_file('features/support/massa/user.yml')
@@ -10,8 +10,8 @@ def sort_id
 end
 
 FactoryBot.define do
-    factory :user, class: UserModel do
-        id {Faker::Number.number(digits: 2) }
+    factory :user, class: UsersModel do
+        id { Faker::Number.number(digits: 2) }
         user_name {Faker::Name.name}
         password { 123456 }
     end

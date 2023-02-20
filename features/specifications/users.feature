@@ -18,7 +18,7 @@ Funcionalidade: Users
         E retorna o usuario
 
 
-    @post_user
+    @post_users
     Cenario: Validar POST API Users
         Quando faço uma requisição POST para o servico Users
         Entao o serviço Users deve responder com 200
