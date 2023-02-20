@@ -1,7 +1,8 @@
-source "http://rubygems.org"
+source 'http://rubygems.org'
 
 gem 'cucumber'
 gem 'factory_bot'
 gem 'faker'
 gem 'httparty'
 gem 'rspec'
+gem 'rubocop'

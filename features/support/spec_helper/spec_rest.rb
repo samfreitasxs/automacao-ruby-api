@@ -1,5 +1,5 @@
 module REST
-    def users
-        Rest::Users.new
-    end
+  def users
+    Rest::Users.new
+  end
 end
