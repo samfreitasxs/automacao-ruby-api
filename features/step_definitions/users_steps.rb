@@ -14,10 +14,9 @@ Quando('faço uma requisição GET para o servico Users') do
   Quando('faço uma requisição GET para o servico Users passando id') do
     @id= sort_id.to_i
     @request_users = users.get_user(@id)
-    print @request_users
   end
   
   Entao('retorna o usuario') do
-    expect(@request_users.parsed_response['ID']).to eql @id
-
+    expect(@request_users.parsed_response['id']).to eql @id
+    print @id
   end
