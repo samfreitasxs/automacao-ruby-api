@@ -1,4 +1,4 @@
-default: -p html_report -p prd
+default: -p html_report -p hlg
 
 ### AMBIENTES ###
 prd: AMBIENTE=prd

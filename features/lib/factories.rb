@@ -6,12 +6,13 @@ def sort_id
   ids = "#{user_file['ids']}"
   ids = ids.split(',')
   ids[rand(1...ids.length)]
+  ids
 end
 
 FactoryBot.define do
   factory :user, class: UsersModel do
     id { Faker::Number.number(digits: 2) }
     user_name { Faker::Name.name }
-    password { 123_456 }
+    password { 123456 }
   end
 end
