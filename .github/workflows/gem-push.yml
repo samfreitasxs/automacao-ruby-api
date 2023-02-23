@@ -19,6 +19,6 @@ jobs:
           ruby-version: '3.1'
       - name: Install dependencies
         run: bundle install
-            gem install bundler
+        
       - name: Run tests
         run: cucumber
