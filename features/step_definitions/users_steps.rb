@@ -12,7 +12,7 @@ end
 
 
 Quando('faço uma requisição GET para o servico Users passando id') do
-  @id = sort_id.to_i
+  @id = 1
   @request_users = users.get_user(@id)
 end
 
