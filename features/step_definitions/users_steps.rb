@@ -18,7 +18,6 @@ end
 
 Entao('retorna o usuario') do
   expect(@request_users.parsed_response['id']).to eql @id
-  print @id
 end
 
 Quando('faço uma requisição POST para o servico Users') do
