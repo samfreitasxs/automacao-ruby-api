@@ -8,12 +8,16 @@
 
 
 ## Para Ajudar
+<<<<<<< HEAD
 1. teste 
+=======
+1. Teste
+1. Teste
 1. 
+>>>>>>> f062c59afda4193bc0c18f4d34496f0d61143748
+1. Teste
+1. teste
 1. 
-1. 
-1. 
-1. 
-1. 
-1. 
-1. 
+1. Teste
+1. Teste
+1. Teste
